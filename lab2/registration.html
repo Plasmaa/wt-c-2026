@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+
+    <h2>Registration</h2>
+
+    <form>
+        <table width="100%">
+            <tr>
+                <!-- First Column -->
+                <td valign="top">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+
+                        <p>
+                            First Name :
+                            <input type="text" name="firstname">
+                        </p>
+
+                        <p>
+                            Last Name :
+                            <input type="text" name="lastname">
+                        </p>
+
+                        <p>
+                            Gender :
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                        </p>
+
+                        <p>
+                            Father's Name :
+                            <input type="text" name="fathername">
+                            <input type="file" name="fatherphoto">
+                        </p>
+
+                        <p>
+                            Mother's Name :
+                            <input type="text" name="mothername">
+                        </p>
+
+                        <p>
+                            Blood Group :
+                            <select name="bloodgroup">
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                                <option>O+</option>
+                                <option>O-</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            Religion :
+                            <select name="religion">
+                                <option>Islam</option>
+                                <option>Hinduism</option>
+                                <option>Christianity</option>
+                                <option>Buddhism</option>
+                                <option>Other</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                </td>
+
+                <!-- Second Column -->
+                <td valign="top">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+
+                        <p>
+                            Email :
+                            <input type="email" name="email">
+                        </p>
+
+                        <p>
+                            Phone/Mobile :
+                            <input type="tel" name="phone">
+                        </p>
+
+                        <p>
+                            Website :
+                            <input type="url" name="website">
+                        </p>
+
+                        <p>Present Address</p>
+
+                        <p>
+                            <select name="country">
+                                <option>Bangladesh</option>
+                                <option>India</option>
+                                <option>Pakistan</option>
+                                <option>Nepal</option>
+                            </select>
+
+                            <select name="city">
+                                <option>Dhaka</option>
+                                <option>Chittagong</option>
+                                <option>Rajshahi</option>
+                                <option>Khulna</option>
+                                <option>Sylhet</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            Address :
+                            <textarea name="address" rows="5" cols="20"
+                            placeholder="Road/Street/City"></textarea>
+                        </p>
+
+                        <p>
+                            <input type="text" name="postcode"
+                            placeholder="Post Code">
+                        </p>
+                    </fieldset>
+                </td>
+
+                <!-- Third Column -->
+                <td valign="top">
+                    <fieldset>
+                        <legend>Account Information</legend>
+
+                        <p>
+                            Username :
+                            <input type="text" name="username">
+                        </p>
+
+                        <p>
+                            Password :
+                            <input type="password" name="password">
+                        </p>
+
+                        <p>
+                            Confirm Password :
+                            <input type="password" name="confirmpassword">
+                        </p>
+
+                        <p>
+                            <input type="submit" value="Register">
+                        </p>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
